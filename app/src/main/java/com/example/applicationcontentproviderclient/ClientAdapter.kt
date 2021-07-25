@@ -23,7 +23,7 @@ class ClientAdapter(private val mCursor: Cursor):RecyclerView.Adapter<ClientView
 }
 
 class ClientViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
-    val clientTitle = itemView.findViewById<TextView>(R.id.tv_client_title)
+    val clientTitle = itemView.findViewById<TextView>(R.id.tv_client_item_title)
     val clientDescription = itemView.findViewById<TextView>(R.id.tv_client_item_description)
 
 }
